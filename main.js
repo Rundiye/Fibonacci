@@ -12,14 +12,11 @@ while (a <= limit) {
     b = temp;
 };*/
 
-for (var a = 0; a <= limit; a--) {
+for (var a = 0; a <= limit;) {
     console.log(a);
     var temp = a + b;
     a = b;
     b = temp;
-
-    
-    
 }
 
 
